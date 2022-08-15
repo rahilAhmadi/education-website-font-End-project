@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Dancing+Script&family=Exo+2:wght@100&family=Kaushan+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,100&family=Shippori+Antique&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9d805968ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>Univesity Website Design - Easy Tutorial</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                         <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+    </section>
+<!-- ------------contact us ---------- -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9973874144!2d77.91113478096139!3d12.95384772557775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2z2KjZhtqv2YTZiNix2Iwg2qnYp9ix2YbYp9iq2Kfaqdin2Iwg2YfZhtiv!5e0!3m2!1sfa!2ssg!4v1659170876944!5m2!1sfa!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-house"></i>
+                <span>
+                    <h5>XYZ Road, ABC Bulding</h5>
+                    <p>Bangelore, Karnatake, In</p>
+                </span>
+            </div>
+              <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 0123456859</h5>
+                    <p>Monday to Saturday, 10Am to 6Pm</p>
+                </span>
+            </div>
+              <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@easytutorisalspro.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your Subject" required>
+                <textarea  rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn rd-btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+ </section>
+
+ <!-- footer -->
+ <section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt recusandae exercitationem eaque.<br>Temporibus nobis, itaque, aliquid eaque ducimus amet</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa-brands fa-gratipay"></i> by Easy Tutorial</p>
+ </section>
+ 
+    <!-- -----------javascript for Toggle Menu------------ -->
+    <script>
+        var nvalink=document.getElementById("navlinks");
+        function showmenu(){
+            nvalink.style.right="0";
+        }
+        function hidemenu(){
+            nvalink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
